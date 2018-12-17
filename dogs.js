@@ -14,6 +14,8 @@ class Dog {
     }
 }
 
+
+
 const fang = new Dog("Fang", "boardhound", 75);
 console.log(`{${fang.name} is a ${fang.species} dog measuring ${fang.size}`);
 console.log(`Look, a cat! ${fang.name} barks: ${fang.bark()}`);
